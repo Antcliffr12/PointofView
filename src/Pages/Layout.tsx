@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Outlet, Link } from 'react-router-dom';
+import { Outlet, Link } from 'react-router-dom';
 
  
 const Layout: React.FC = () => {

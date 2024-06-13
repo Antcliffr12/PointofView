@@ -1,6 +1,5 @@
 import Accordion from "../components/Accordion";
 import Cards from "../components/Cards";
-import ContactForm from "../components/ContactForm";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 import Sponsors from "../components/Sponsors";

@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm";
 
  
 
-const Footer = (props) => {
+const Footer = () => {
     const [ submitted, setSubmitted ] = useState(false);
 
     const handleFormSubmitSuccess = () => {

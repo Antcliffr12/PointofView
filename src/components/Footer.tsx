@@ -1,15 +1,15 @@
 import { useState } from "react";
 import ContactForm from "./ContactForm";
 
- 
+
 
 const Footer = () => {
-    const [ submitted, setSubmitted ] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
 
-    const handleFormSubmitSuccess = () => {
-        setSubmitted(true);
-      };
-    
+  const handleFormSubmitSuccess = () => {
+    setSubmitted(true);
+  };
+
 
   return (
     <footer className="w-full">
@@ -33,14 +33,26 @@ const Footer = () => {
               from_name: "Contact Form"
             }} onSubmitSuccess={handleFormSubmitSuccess} />
           )}
-          
+
         </div>
       </section>
       <section className="bg-[#5f460e] w-full py-10">
-        <div className="max-w-[1240px] m-auto">
-          <h1>hi</h1>
+        <div className="max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="flex flex-col justify-center items-center">
+            <h2 className="text-[22px] font-medium leading-[32px] text-white">Point of View LLC</h2>
+            <h3 className="text-[1rem] font-normal leading-[28px] text-white">Atlanta</h3>
+          </div>
+          <div className="flex md:justify-center flex-col items-center gap-y-[10px]">
+            <h2 className="text-[22px] font-medium leading-[32px] text-white">Follow Us</h2>
+            <div className="flex space-x-4">
+              <a href="#" className="text-white">Facebook</a>
+              <a href="#" className="text-white">Twitter</a>
+              <a href="#" className="text-white">LinkedIn</a>
+            </div>
+          </div>
         </div>
       </section>
+
     </footer>
   )
 }

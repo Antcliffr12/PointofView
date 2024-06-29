@@ -43,7 +43,7 @@ const Home = () => {
             services={
               [
                 {
-                  title: "Leadership Coaching",
+                  title: "Assessment (as is) with direct reference to Gallup and Strengths Finder TM.",
                   description: "Our leadership coaching services are designed to help leaders at all levels of the organization develop the skills and capabilities they need to drive business results.",
                   items: [
                     {
@@ -58,7 +58,7 @@ const Home = () => {
                   ]
                 },
                 {
-                  title: "Team Coaching",
+                  title: "Targeted content based on an outside-in focus.",
                   description: "Our team coaching services are focused on helping teams work together more effectively to achieve their goals and drive business success.",
                   items: [
                     {
@@ -73,7 +73,7 @@ const Home = () => {
                   ]
                 },
                 {
-                  title: "Business Coaching",
+                  title: "Positioning. Two levels: Branding 101 and Closing 102.",
                   description: "Our business coaching services are designed to help organizations develop the skills and capabilities they need to drive business results.",
                   items: [
                     {

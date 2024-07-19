@@ -89,14 +89,14 @@ const Header = () => {
 							>
                                 <li>
 									<Link to="/" 
-										className="md:p-4 md:text-[20px] py-2 block hover:text-[#c28e1c] rounded p-2.5 text-[#c28e1c] bg-[#f8f8f8] font-medium  md:bg-white md:font-normal md:text-[#333]"
+										className="md:p-4 md:text-[24px] py-2 block hover:text-[#c28e1c] rounded p-2.5 text-[#c28e1c] bg-[#f8f8f8] font-medium  md:bg-white md:font-normal md:text-[#333]"
 									>
 										Home
 									</Link>
 								</li>
 								<li>
 									<Link
-                                        className="md:p-4 md:text-[20px] py-2 block hover:text-[#c28e1c] rounded p-2.5 text-[#c28e1c] bg-[#f8f8f8] font-medium  md:bg-white md:font-normal md:text-[#333]"
+                                        className="md:p-4 md:text-[24px] py-2 block hover:text-[#c28e1c] rounded p-2.5 text-[#c28e1c] bg-[#f8f8f8] font-medium  md:bg-white md:font-normal md:text-[#333]"
 										to="/services"
 									>
 										Services
@@ -104,11 +104,29 @@ const Header = () => {
 								</li>
 								<li>
                                     <Link
-										className="md:p-4 md:text-[20px] py-2 block hover:text-[#c28e1c] rounded p-2.5 text-[#c28e1c] bg-[#f8f8f8] font-medium  md:bg-white md:font-normal md:text-[#333]"
+										className="md:p-4 md:text-[24px] py-2 block hover:text-[#c28e1c] rounded p-2.5 text-[#c28e1c] bg-[#f8f8f8] font-medium  md:bg-white md:font-normal md:text-[#333]"
 										to="/about-us"
 									>
 										About Us
 									</Link>
+								</li>
+								<li>
+									<a
+										className="md:p-4 md:text-[24px] py-2 block hover:text-[#c28e1c] rounded p-2.5 text-[#c28e1c] bg-[#f8f8f8] font-medium  md:bg-white md:font-normal md:text-[#333]"
+										href="http://povblogger.blogspot.com/"
+										target="_blank"
+									>
+										Blog
+									</a>
+								</li>
+								<li>
+									<a
+										className="md:p-4 md:text-[24px] py-2 block hover:text-[#c28e1c] rounded p-2.5 text-[#c28e1c] bg-[#f8f8f8] font-medium  md:bg-white md:font-normal md:text-[#333]"
+										href="https://www.linkedin.com/in/jeremygarlington/"
+										target="_blank"
+									>
+										LinkedIn
+									</a>
 								</li>
 							</ul>
 						</div>

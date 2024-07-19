@@ -45,9 +45,7 @@ const Footer = () => {
           <div className="flex md:justify-center flex-col items-center gap-y-[10px]">
             <h2 className="text-[22px] font-medium leading-[32px] text-white">Follow Us</h2>
             <div className="flex space-x-4">
-              <a href="#" className="text-white">Facebook</a>
-              <a href="#" className="text-white">Twitter</a>
-              <a href="#" className="text-white">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/jeremygarlington/" target="_blank" className="text-white">LinkedIn</a>
             </div>
           </div>
         </div>

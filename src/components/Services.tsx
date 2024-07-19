@@ -21,7 +21,7 @@ const Services = (props: ServiceProps) => {
                                 <div className='flex items-center md:mt-auto flex-wrap gap-[20px] justify-center list-none'>
                                     {
                                         service.items.map((item, index: number) => (
-                                            <li key={index} className="w-full m-0 px-4 py-2 bg-[#f9f4e8] text-[#5f460e] font-semibold text-[15px] rounded-full">
+                                            <li key={index} className="w-full m-0 px-4 py-2 bg-[#f9f4e8] text-[#5f460e] font-semibold text-[16px] md:text-[18px] rounded-full">
                                                 {item.item}
                                             </li>
                                         ))

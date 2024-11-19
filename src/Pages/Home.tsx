@@ -91,40 +91,7 @@ Purpose-Driven Actions" image={{src: "https://images.unsplash.com/photo-15597527
               ]
             }
           />
-          <Sponsors 
-            blockDescription="Discover our trusted partners"
-            blockTitle="Trusted by"
-            sponsors={
-              [
-                {
-                  name: "CloudWatch",
-                  link: "https://www.google.com",
-                  image: {
-                    src: "https://edl.evlop.com/images/brands/CloudWatch_true.png",
-                    alt: "Leadership Coaching",
-                  }
-                },
-                {
-                  name: "CloudWatch",
-                  link: "https://www.google.com",
-                  image: {
-                    src: "https://edl.evlop.com/images/brands/Acme Corp_true.png",
-                    alt: "Team Coaching",
-                   
-                  }
-                },
-                {
-                  name: "CloudWatch",
-                  link: "https://www.google.com",
-                  image: {
-                    src: "https://edl.evlop.com/images/brands/Sisyphus_true.png",
-                    alt: "Business Coaching",
-                    
-                  }
-                }
-              ]
-            }
-          />
+         
           <Accordion
             blockTitle="FAQs"
             blockDescription="Experts in assessing leaders and teams"

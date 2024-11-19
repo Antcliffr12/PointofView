@@ -87,21 +87,6 @@ Purpose-Driven Actions" image={{src: "https://images.unsplash.com/photo-15597527
                       item: "Performance Management"
                     }
                   ]
-                },
-                {
-                  title: "Business Coaching",
-                  description: " Our business coaching services are designed to help organizations develop the skills and capabilities they need to drive business results.",
-                  items: [
-                    {
-                      item: "Strategic Planning"
-                    },
-                    {
-                      item: "Change Management"
-                    },
-                    {
-                      item: "Performance Management"
-                    }
-                  ]
                 }
               ]
             }

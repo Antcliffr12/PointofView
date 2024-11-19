@@ -3,7 +3,7 @@ import { ServiceProps } from '../types/Blocks';
 
 const Services = (props: ServiceProps) => {
   return (
-    <section>
+    <section id="services">
         <div className="py-16 text-center max-w-[77.5rem] mx-auto md:px-0">
             <p className="mb-4 text-center text-[#c28e1c]">{props.blockDescription}</p>
             <h2 className="text-4xl md:text-[2.625rem] font-bold mb-8 md:mb-[52px]">{props.blockTitle}</h2>

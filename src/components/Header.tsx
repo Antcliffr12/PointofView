@@ -7,6 +7,13 @@ const Header = () => {
 		setMenuOpen(!menuOpen);
 	};
 
+	const scrollToSection = (id: string): void => {
+		const section = document.getElementById(id);
+		if (section) {
+			section.scrollIntoView({ behavior: "smooth" });
+		}  
+	};
+
 	return (
 		<section className="">
 			<header>
@@ -95,20 +102,20 @@ const Header = () => {
 									</Link>
 								</li>
 								<li>
-									<Link
-                                        className="md:p-4 md:text-[24px] py-2 block hover:text-[#c28e1c] rounded p-2.5 text-[#c28e1c] bg-[#f8f8f8] font-medium  md:bg-white md:font-normal md:text-[#333]"
-										to="/services"
+									<a
+                                        className="md:p-4 md:text-[24px] py-2 block hover:text-[#c28e1c] rounded p-2.5 text-[#c28e1c] bg-[#f8f8f8] font-medium  md:bg-white md:font-normal md:text-[#333] cursor-pointer"
+										onClick={() => scrollToSection("services")}
 									>
 										Services
-									</Link>
+									</a>
 								</li>
 								<li>
-                                    <Link
-										className="md:p-4 md:text-[24px] py-2 block hover:text-[#c28e1c] rounded p-2.5 text-[#c28e1c] bg-[#f8f8f8] font-medium  md:bg-white md:font-normal md:text-[#333]"
-										to="/about-us"
+                                    <a
+										className="md:p-4 md:text-[24px] py-2 block hover:text-[#c28e1c] rounded p-2.5 text-[#c28e1c] bg-[#f8f8f8] font-medium  md:bg-white md:font-normal md:text-[#333] cursor-pointer"
+										onClick={() => scrollToSection("contact-us")}
 									>
-										About Us
-									</Link>
+										Contact Us
+									</a>
 								</li>
 								<li>
 									<a

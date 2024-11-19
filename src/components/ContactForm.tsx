@@ -8,7 +8,7 @@ const ContactForm: React.FC<FormProps> = ({ onSubmitSuccess }) => {
         name: "",
         email: "",
         message: "",
-        subject: "Point of View Submission Form",
+        subject: "Point of View Online Contact Form",
         from_name: "POV Submission",
     });
 
@@ -52,7 +52,7 @@ const ContactForm: React.FC<FormProps> = ({ onSubmitSuccess }) => {
 
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} id="contact-us">
             <input type="hidden" name="access_key" value="ca30fb47-54d2-44c3-b41b-626aa73ca31a" />
             <input type="hidden" name="subject" value={formData.subject} />
             <input type="hidden" name="from_name" value={formData.from_name} />

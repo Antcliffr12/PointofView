@@ -13,7 +13,7 @@ const Home = () => {
             cards={[
                 {
                     title: "Business Perspective",
-                    description: "We bring a unique business perspective to our coaching engagements, helping leaders and teams understand the impact of their actions on the overall success of the organization.",
+                    description: "We bring a unique business perspective to projects and engagements, helping leaders and teams understand the impact of their actions on the organization's overall success.",
                     image: {
                         src: "https://images.unsplash.com/photo-1533152386-e1f8d8950bb4?w=1080&fit=crop&crop=entropy&auto=format",
                         alt: "Leadership Coaching"
@@ -21,15 +21,15 @@ const Home = () => {
                 },
                 {
                     title: "Talent Solutions",
-                    description: "Our team of experts design talent solutions that are tailored to the specific needs of our clients, ensuring that they have the right people in the right roles to drive business results.",
+                    description: "Our team of experts design talent solutions that are tailored to the specific needs of our clients, ensuring that they have the right people in the right roles to drive the right results.",
                     image: {
                         src: "https://images.unsplash.com/photo-1542370540528-fc28585c439c?w=1080&fit=crop&crop=entropy&auto=format",
                         alt: "Team Coaching"
                     }
                 },
                 {
-                    title: "Coaching for Results",
-                    description: "We provide coaching that is focused on delivering tangible results. Our approach combines deep industry knowledge with proven coaching techniques to help leaders and teams achieve their goals.",
+                    title: "Content",
+                    description: "We provide strategy and content that are focused on delivering tangible results. Our approach combines industry knowledge with proven consultative techniques to help leaders and teams achieve their goals.",
                     image: {
                         src: "https://images.unsplash.com/photo-1542927502-14b98754030d?w=1080&fit=crop&crop=entropy&auto=format",
                         alt: "Business Coaching"
@@ -44,7 +44,7 @@ const Home = () => {
               [
                 {
                   title: "Assessment (as is) with direct reference to Gallup and Strengths Finder TM.",
-                  description: "Our leadership coaching services are designed to help leaders at all levels of the organization develop the skills and capabilities they need to drive business results.",
+                  description: " Our leadership services are designed to help leaders at all levels of the organization develop the skills and capabilities needed for business results.",
                   items: [
                     {
                       item: "Executive Coaching"
@@ -59,7 +59,7 @@ const Home = () => {
                 },
                 {
                   title: "Targeted content based on an outside-in focus.",
-                  description: "Our team coaching services are focused on helping teams work together more effectively to achieve their goals and drive business success.",
+                  description: " Services are focused on helping teams work together more effectively to achieve their goals and drive business success.",
                   items: [
                     {
                       item: "Team Building"
@@ -88,8 +88,8 @@ const Home = () => {
                   ]
                 },
                 {
-                  title: "Business Coaching",
-                  description: "Our business coaching services are designed to help organizations develop the skills and capabilities they need to drive business results.",
+                  title: "Positioning. Two levels: Branding 101 and Closing 102.",
+                  description: " Our business coaching services are designed to help organizations develop the skills and capabilities they need to drive business results.",
                   items: [
                     {
                       item: "Strategic Planning"
